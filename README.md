@@ -5,6 +5,9 @@ L’obiettivo è indovinare una sequenza segreta di 4 immagini tra le 6 disponib
 
 Ogni pulsante mostra un’immagine e, quando viene cliccato, cambia ciclicamente immagine.
 Il giocatore deve scegliere la combinazione corretta e poi verificarla.
+Inviata la combinazione affianco a essa appaiono delle cerchi colorati:
+Il rosso indica che l'immagine è nella posizione esatta.
+Il bianco che l'immagine è presente nella sequenza ma si trova nella posizione sbagliata.
 
 Le combinazioni possono essere anche ripetute permettendo al gioco di essere maggiormente difficile.
 ## Funzionalità principali del gioco
@@ -46,9 +49,13 @@ e il reset del gioco.
 
 ## Scelte di Sviluppo
 Utilizzo di StatefulWidget per gestire lo stato dinamico del gioco (tentativi, codice segreto, messaggi).
+
 Struttura a liste per gestire combinazioni, feedback e cronologia.
+
 Uso di Random() per la generazione del codice segreto.
+
 Adozione di immagini invece di semplici colori per dare un tocco creativo e visivo.
+
 Utilizzo di Stack e ListView.builder per gestire lo sfondo fisso e la cronologia dinamica.
 
 # Autore:
