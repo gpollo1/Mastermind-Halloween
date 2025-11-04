@@ -27,6 +27,7 @@ Un pulsante che invia la sequenza di valori scelta e verifica se la combinazione
 Un pulsante che se premuto resetta i tentativi e la combinazione scelta facendo ricominciare il gioco e creando un nuovo codice segreto.
 
 ### Sfondo Personalizzato
+Un immagine personalizzata che appare come sfondo.
 
 Non c’è un numero massimo di tentativi ma ogni tentativo viene salvato, se si indovina la combinazione del codice segreto viene riportata la scritta in verde “Hai indovinato” altrimenti viene scritto in arancione “Riprova”.
 
